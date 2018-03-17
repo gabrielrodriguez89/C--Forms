@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EmployeePayCalculator
+namespace FunWithMath
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace EmployeePayCalculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PayCalculator());
+            Application.Run(new Math());
         }
     }
 }
